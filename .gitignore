@@ -10,7 +10,8 @@ node_modules
 
 
 env.sh
-# Byte-compiled / optimized / DLL files
+# Byte-com
+piled / optimized / DLL files
 __pycache__/
 *.py[cod]
 
@@ -33,6 +34,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg/
+.venv/
 
 # Installer logs
 pip-log.txt
@@ -75,3 +77,10 @@ debian/reproducible-experiment-platform
 debian/files
 *.substvars
 *.debhelper.log
+
+
+# videos
+*.mp4
+
+# archive with datasets
+*.tar.gz
